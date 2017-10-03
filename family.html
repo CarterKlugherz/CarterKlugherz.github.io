@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title> Family </title>
-</head>
-<body>
+    <head>
+    <title> Family Page</title>
+    
+    <style>
+    body {
+            background-color: lightblue;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        li { 
+            font-family: verdana;
+            font-size: 20px;    
+            }
 
-<h1>Family Page</h1>
-  
-<p>I have a rather large family with 6 of us in total. My mom, dad, and three other brothers. My dad works as a Contractor and helps build homes in the poorer parts of mexico. My mom is a Marketing VP for my dad's company. My oldest brother, Robert, is currently in Afghanistan working as a computer programmer. My second oldest brother, Curren, is currently attending his second year at UCSB, where I plan to go when I graduate. My youngest brother, Stephen, is attending Canyon Crest Academy as a sophomore.
-.</p>
-  
+    </style>
+    </head>
+<body>
+    <!-- Overall container -->
+    <div id="container" style="width:1000px">
+
+        <!-- Title subcontainer -->
+        <div id="header" style="background-color:red;">
+            <h1 style="margin-bottom:0;">My Family</h1>
+        </div> <!-- End Title container -->
+
+        <!-- Left side menu subcontainer with unordered list of link -->
+        <div id="menu" style="background-color:orange;height:800px;width:400px;float:left;">
+         <h2>Family Picture </h2>
+        <img src="images/ECS-Kingfamily.jpg"; alt="Family Event 1"; style="width:304px;height:228px:"/>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home Page</a> </li>
+                    <li> <a href="sports.html">Sports Page</a> </li>
+                    <li> <a href="hobbies.html">Hobbies Page</a> </li>
+                    <li> <a href="food.html">Food Page</a> </li>
+                    <li> <a href="MyGrandad.html">My Grandad</a> </li>
+                </ul>
+            </nav> <!-- End navigation -->
+ <h2>Wedding Picture </h2>
+        <img src="images/ECS-Robwedding.jpg"; alt="Robswedding"; style="width:304px;height:228px:"/>
+        </div> <!-- End menu container -->
+
+        <!-- Page main body container -->
+        <div id="content" style="background-color:yellow;height:800px;width:600px;float:right;">
+            <p>I have a rather large family with 6 of us in total. My mom, dad, and three other brothers. My dad works as a Contractor and helps build homes in the poorer parts of mexico. My mom is a Marketing VP for my dad's company. My oldest brother, Robert, is currently in Afghanistan working as a computer programmer. My second oldest brother, Curren, is currently attending his second year at UCSB, where I plan to go when I graduate. My youngest brother, Stephen, is attending Canyon Crest Academy as a sophomore.</p>
+ <h2>Family Tree </h2>
+        <img src="images/ECS-Cartersancestry.jpg"; alt="Ancestry"; style="width:500px;height:350px:"/>
+       
+        </div> <!-- End main body container -->
+
+        <!-- Page footer subcontainer -->
+        <div id="footer" style=background-color:gray;clear:both;text-allign:center;font-family: verdana;font-size: 10pt;text-align: center;margin: 0;padding: 0;">
+            <p>Copyright &copy; 2017 Carter Klugherz</p>
+        </div> <!-- End footer container
+    </div> <!-- End overall container -->
 
 </body>
 </html>
